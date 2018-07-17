@@ -192,16 +192,14 @@ SysTrace通过TAG节点可以清晰展现，启动过程以及方法执行时间
 ## 8.优化结果
 启动时间，由于不同的机型性能同，Android系统版本不同，同一APP版本启动时间，相差很大，所以统计一般以同一手机，不同版本做比较，尽量保证手机状态一致。  
 SysTrace手机优化时间对比：
-<center class="half">
-  <img src="./launch_time_systrace_ad.png" width="250"/>
-  <img src="./launch_time_systrace_no_ad.png" width="250"/>
+<center class = "half">
+<img src="./launch_time_systrace_contrast.png"/>
 </center>  
 
 脚本多次启动时间收集对比：
-<center class="half">
-  <img src="./launch_time_adb_8_2.png" width="250"/>
-  <img src="./launch_time_adb_8_6.png" width="250"/>
-</center>
+<center class = "half">
+<img src="./launch_time_adb_contrast.png"/>
+</center>  
 
 经过多个版本的持续优化，有无广告两种不同的场景下，启动时间分别减少40%和35%，启动速度得到了较大的提升。
 
